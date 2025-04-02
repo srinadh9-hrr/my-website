@@ -1,0 +1,68 @@
+html{
+    background-color: black;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+}
+
+
+
+
+.nav{
+    background-color: white;
+    color:black;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+button{
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100px;
+    
+    transition: 0.3s;
+    font-family: 'Kanit', sans-serif;
+    
+
+}
+button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s ease-in-out;
+    height: 60px;
+    width: 100px;
+    font-family: 'Kanit', sans-serif;
+    box-shadow: 0 0 30px rgba(0, 255, 255, 1);
+    transform: translateY(-2px);
+
+}
+.btns{
+    margin-left: 1000px;
+    margin-right: 40px;
+    
+}
+
+
+.projcard{
+    height: 100px;
+    width: 600px;
+    background-color: white;
+    color: black;
+    
+    
+    
+    transition: 0.3s;
+}
+.projcard:hover{
+    box-shadow: 0 0 30px rgba(0, 255, 255, 1);
+    transform: translateY(-2px);
+
+}
+img{
+   
+    transition: 0.3s;
+}
+img:hover{
+    box-shadow: 0 0 30px rgba(0, 255, 255, 1);
+    transform: translateY(-2px);
+}
